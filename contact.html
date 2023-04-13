@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <main>
+        <header class="contact_page">
+            <div class="part_1">
+                <img class="logo" src="images/box.png" alt="Minimalist image of a blackbox">
+                <div class="company_name">
+                    <h1>BLACKBOX SOFTWARES</h1>
+                </div>
+            </div>
+            <div class="part_2">
+                <div class="links_container">
+                    <div class="page_link">
+                        <a href="index.html">Home Page</a>
+                    </div>
+                    <div class="page_link">
+                        <a href="contact.html">Contact Page</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div>
+            <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <footer>
+            <p>Created by Hitanshu Darji</p>
+            <p>Follow me on<a class="social" href="https://www.instagram.com/hitanshu2788/">Instagram</a></p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,112 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.part_1 {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    border:solid;
+    border-color: black;
+    border-width: 2px 0px 2px 0px;
+}
+
+img {
+    height: 50px;
+    margin: 30px;
+}
+
+.links_container {
+    margin-left: 30px;
+    width: fit-content;
+    height: fit-content;
+    border: black 2px solid;
+    margin-top: 30px;
+}
+
+.page_link {
+    padding: 10px;
+    text-align: center;
+}
+
+.page_link:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(239, 239, 239);
+}
+
+
+
+p {
+    text-align: center;
+    color: grey;
+}
+
+.social {
+    color: grey;
+}
+
+.social:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.body_text {
+    color: black;
+    text-align: justify;
+}
+
+h2 {
+    border-bottom: solid;
+    width: fit-content;
+}
+
+.content {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 16px;
+    margin: 200px;
+    align-items: center;
+}
+
+label {
+    grid-column: 1 / 2;
+    text-align: right;
+}
+
+input, button {
+    grid-column: 2 / 3;
+    padding: 12px 20px;
+}
+
+textarea {
+    padding: 12px 20px;
+}
+
+.submit:hover {
+    background-color: black;
+    color: rgb(239, 239, 239);
+}
